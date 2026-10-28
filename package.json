@@ -1,0 +1,9 @@
+{
+  "name": "meetingproof-local",
+  "private": true,
+  "version": "0.3.0",
+  "scripts": {
+    "dev": "python devserver.py",
+    "test": "python -m unittest discover -s tests -v"
+  }
+}

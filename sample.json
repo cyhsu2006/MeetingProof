@@ -1,0 +1,13 @@
+{
+  "title": "Product sync · synthetic bilingual sample",
+  "segments": [
+    {"id":"s01","start":12,"end":20,"speaker":"Ava","text":"Perhaps Friday for the draft, but that is only a proposal."},
+    {"id":"s02","start":24,"end":33,"speaker":"Ben","text":"I will prepare the draft. I can commit to Monday, not Friday."},
+    {"id":"s03","start":39,"end":50,"speaker":"Chloe","text":"Agreed. Monday is the draft deadline. We will review the draft before setting the launch date."},
+    {"id":"s04","start":54,"end":62,"speaker":null,"text":"We should also check the privacy notice. [Overlapping voices; speaker identity uncertain.]"},
+    {"id":"s05","start":70,"end":78,"speaker":"Ben","text":"I will check the privacy notice too. No delivery date yet."},
+    {"id":"s06","start":82,"end":91,"speaker":"Ava","text":"確認：草稿先在 Monday 交付；上線日期還沒有決定，不要把提議的 Friday 當成承諾。"},
+    {"id":"s07","start":97,"end":106,"speaker":null,"text":"Please document the accessibility requirements. [Speaker identity is not available in this supplied transcript.]"},
+    {"id":"s08","start":112,"end":119,"speaker":"Chloe","text":"The launch date remains an open question until we review the draft."}
+  ]
+}

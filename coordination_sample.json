@@ -1,0 +1,47 @@
+{
+  "mode": "MOCK",
+  "delegation": {
+    "purpose": "Synthetic product design review",
+    "duration_minutes": 30,
+    "timezone": "Asia/Taipei",
+    "window_start": "2026-10-29T01:00:00Z",
+    "window_end": "2026-10-29T09:00:00Z",
+    "attendees": [
+      {
+        "id": "ava",
+        "name": "Ava (synthetic)",
+        "email": "ava@demo.example",
+        "required": true
+      },
+      {
+        "id": "ben",
+        "name": "Ben (synthetic)",
+        "email": "ben@demo.example",
+        "required": true
+      },
+      {
+        "id": "chloe",
+        "name": "Chloe (synthetic)",
+        "email": "chloe@demo.example",
+        "required": false
+      }
+    ],
+    "max_reminders": 2,
+    "reminder_interval_minutes": 60,
+    "minutes_audience_ids": [
+      "ava",
+      "ben",
+      "chloe"
+    ],
+    "minutes_rule": "authorized_audience",
+    "authorize_autonomous": true
+  },
+  "limits": {
+    "max_attendees": 8,
+    "max_rounds": 2,
+    "max_reminders": 2,
+    "max_window_days": 7,
+    "max_clock_advance_minutes": 1440
+  },
+  "notice": "Deterministic synthetic simulator. No LLM, actual email, external calendar, or real attendee information is used."
+}
